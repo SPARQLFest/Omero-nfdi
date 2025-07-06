@@ -109,7 +109,7 @@
   - <http://www.openmicroscopy.org/ns/default/Strain>:
     - strain_of_image: "SBW25"
   - <http://www.openmicroscopy.org/ns/default/OME-Model0#OME:Experiment_ExperimentType>:
-    - ome:experiment_cexperimenttype_of_image "FP"
+    - ome_experiment_cexperimenttype_of_image: "FP"
 
 - ShapeShapefontstyle <https://ld.openmicroscopy.org/core/ShapeFontStyle#BoldItalic>:
   - rdf:type: <https://ld.openmicroscopy.org/core/ShapeFontStyle>
