@@ -1,0 +1,487 @@
+- ShapeChannel <https://omero-nfdi.uni-muenster.de/Channel/283>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/Channel>
+  - rdf:type: <https://ld.openmicroscopy.org/omekg/Channel>
+  - dc:identifier:
+    - dc_identifier_of_channel: 252
+  - <https://ld.openmicroscopy.org/omekg#pixels>:
+    - pixels_of_channel: ShapePixels
+  - <https://ld.openmicroscopy.org/omekg#green>:
+    - green_of_channel: 0
+  - <https://ld.openmicroscopy.org/omekg#red>:
+    - red_of_channel: 255
+  - <https://ld.openmicroscopy.org/omekg#blue>:
+    - blue_of_channel: 0
+
+- ShapeObjectivecorrection <https://ld.openmicroscopy.org/core/ObjectiveCorrection#Achromat>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/ObjectiveCorrection>
+
+- ShapeLasertype <https://ld.openmicroscopy.org/core/LaserType#Dye>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/LaserType>
+
+- ShapeExperimentergroup <https://omero-nfdi.uni-muenster.de/ExperimenterGroup/2>:
+  - rdf:type: <https://ld.openmicroscopy.org/omekg/ExperimenterGroup>
+  - rdf:type: <https://ld.openmicroscopy.org/omekg/Group>
+  - rdf:type: <https://ld.openmicroscopy.org/core/ExperimenterGroup>
+  - foaf:name:
+    - foaf_name_of_experimentergroup: "system"
+  - dc:identifier:
+    - dc_identifier_of_experimentergroup: 53
+
+- ShapeGroup <https://omero-nfdi.uni-muenster.de/ExperimenterGroup/2>:
+  - rdf:type: <https://ld.openmicroscopy.org/omekg/ExperimenterGroup>
+  - rdf:type: <https://ld.openmicroscopy.org/omekg/Group>
+  - rdf:type: <https://ld.openmicroscopy.org/core/ExperimenterGroup>
+  - foaf:name:
+    - foaf_name_of_group: "system"
+  - dc:identifier:
+    - dc_identifier_of_group: 53
+
+- ShapeExperimentergroup <https://omero-nfdi.uni-muenster.de/ExperimenterGroup/2>:
+  - rdf:type: <https://ld.openmicroscopy.org/omekg/ExperimenterGroup>
+  - rdf:type: <https://ld.openmicroscopy.org/omekg/Group>
+  - rdf:type: <https://ld.openmicroscopy.org/core/ExperimenterGroup>
+  - foaf:name:
+    - foaf_name_of_experimentergroupstring: "system"
+  - dc:identifier:
+    - dc_identifier_of_experimentergroupinteger: 53
+
+- ShapeLaserlasermedium <https://ld.openmicroscopy.org/core/LaserLaserMedium#HoYLF>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/LaserLaserMedium>
+
+- ShapeUnitslength <https://ld.openmicroscopy.org/core/UnitsLength#Gm>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/UnitsLength>
+
+- ShapePixeltype <https://ld.openmicroscopy.org/core/PixelType#uint16>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/PixelType>
+
+- ShapeUnitsfrequency <https://ld.openmicroscopy.org/core/UnitsFrequency#yHz>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/UnitsFrequency>
+
+- ShapeSlotdefinition <https://ld.openmicroscopy.org/core/pockel_cell_setting>:
+  - rdf:type: <https://w3id.org/linkml/SlotDefinition>
+
+- ShapePixels <https://omero-nfdi.uni-muenster.de/Pixels/155>:
+  - rdf:type: <https://ld.openmicroscopy.org/omekg/Pixels>
+  - rdf:type: <https://ld.openmicroscopy.org/core/Pixels>
+  - <https://ld.openmicroscopy.org/omekg#image>:
+    - image_of_pixels: ShapeImage
+
+- ShapePixels <https://omero-nfdi.uni-muenster.de/Pixels/155>:
+  - rdf:type: <https://ld.openmicroscopy.org/omekg/Pixels>
+  - rdf:type: <https://ld.openmicroscopy.org/core/Pixels>
+  - <https://ld.openmicroscopy.org/omekg#image>:
+    - image_of_pixelsimage>: ShapeImage
+
+- ShapeImage <https://omero-nfdi.uni-muenster.de/Image/201>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/Image>
+  - rdf:type: <https://ld.openmicroscopy.org/omekg/Image>
+  - <http://www.openmicroscopy.org/ns/default/md5>:
+    - md5_of_image: "94197e64961d3fe98a5a9cd8304e66b2"
+  - <http://www.openmicroscopy.org/ns/default/origin_hostname>:
+    - origin_hostname_of_image: "ome"
+  - dc:identifier:
+    - dc_identifier_of_image: 114
+  - <http://www.openmicroscopy.org/ns/default/origin_image_id>:
+    - origin_image_id_of_image: 6752778
+  - <http://www.openmicroscopy.org/ns/default/version>:
+    - version_of_image: "1.2.0"
+  - <http://www.openmicroscopy.org/ns/default/software>:
+    - software_of_image: "omero-cli-transfer"
+  - <http://www.openmicroscopy.org/ns/default/packing_timestamp>:
+    - packing_timestamp_of_image: "10/06/2025, 14:27:11"
+  - <https://ld.openmicroscopy.org/omekg#owner>:
+    - owner_of_image: ShapeExperimenter
+  - <http://www.openmicroscopy.org/ns/default/original_user>:
+    - original_user_of_image: "grotec"
+  - <https://ld.openmicroscopy.org/omekg#acquisition_date>:
+    - acquisition_date_of_image: "2023-05-19T17:12:35"
+  - rdfs:label:
+    - rdfs_label_of_image: "awsX-25.jpg"
+  - <https://ld.openmicroscopy.org/core/experimenter>:
+    - experimenter_of_image: ShapeExperimenter
+  - <http://www.openmicroscopy.org/ns/default/original_group>:
+    - original_group_of_image: "micropop"
+  - <https://ld.openmicroscopy.org/omekg#experimenter>:
+    - experimenter_of_imageexperimenter>: ShapeExperimenter
+  - <http://www.openmicroscopy.org/ns/default/Genotype>:
+    - genotype_of_image: "awsX"
+  - <http://www.openmicroscopy.org/ns/default/Phenotype>:
+    - phenotype_of_image: "WS"
+  - <http://www.openmicroscopy.org/ns/default/Parent>:
+    - parent_of_image: 0
+  - <http://www.openmicroscopy.org/ns/default/Investigation>:
+    - investigation_of_image: "Deep Learning for MPB"
+  - <http://www.openmicroscopy.org/ns/default/Study>:
+    - study_of_image: "Segmentation and Classification of Pseudomonas fluorescens SBW25 colony morphotypes"
+  - <http://www.openmicroscopy.org/ns/default/Type>:
+    - type_of_image: "still"
+  - <http://www.openmicroscopy.org/ns/default/MPB>:
+    - mpb_of_image: 15456
+  - <http://www.openmicroscopy.org/ns/default/Organism>:
+    - organism_of_image: "Pseudomonas fluorescens"
+  - <http://www.openmicroscopy.org/ns/default/Assay>:
+    - assay_of_image: "awsX"
+  - <http://www.openmicroscopy.org/ns/default/Strain>:
+    - strain_of_image: "SBW25"
+  - <http://www.openmicroscopy.org/ns/default/OME-Model0#OME:Experiment0%7CExperimentType>:
+    - ome:experiment0%7cexperimenttype_of_image: "FP"
+
+- ShapeImage <https://omero-nfdi.uni-muenster.de/Image/201>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/Image>
+  - rdf:type: <https://ld.openmicroscopy.org/omekg/Image>
+  - <http://www.openmicroscopy.org/ns/default/md5>:
+    - md5_of_imagestring: "94197e64961d3fe98a5a9cd8304e66b2"
+  - <http://www.openmicroscopy.org/ns/default/origin_hostname>:
+    - origin_hostname_of_imagestring: "ome"
+  - dc:identifier:
+    - dc_identifier_of_imageinteger: 114
+  - <http://www.openmicroscopy.org/ns/default/origin_image_id>:
+    - origin_image_id_of_imagestring: 6752778
+  - <http://www.openmicroscopy.org/ns/default/version>:
+    - version_of_imagestring: "1.2.0"
+  - <http://www.openmicroscopy.org/ns/default/software>:
+    - software_of_imagestring: "omero-cli-transfer"
+  - <http://www.openmicroscopy.org/ns/default/packing_timestamp>:
+    - packing_timestamp_of_imagestring: "10/06/2025, 14:27:11"
+  - <https://ld.openmicroscopy.org/omekg#owner>:
+    - owner_of_imageexperimenter>: ShapeExperimenter
+  - <http://www.openmicroscopy.org/ns/default/original_user>:
+    - original_user_of_imagestring: "grotec"
+  - <https://ld.openmicroscopy.org/omekg#acquisition_date>:
+    - acquisition_date_of_imagedatetime: "2023-05-19T17:12:35"
+  - rdfs:label:
+    - rdfs_label_of_imagestring: "awsX-25.jpg"
+  - <https://ld.openmicroscopy.org/core/experimenter>:
+    - experimenter_of_imageexperimenter>1: ShapeExperimenter
+  - <http://www.openmicroscopy.org/ns/default/original_group>:
+    - original_group_of_imagestring: "micropop"
+  - <https://ld.openmicroscopy.org/omekg#experimenter>:
+    - experimenter_of_imageexperimenter>2: ShapeExperimenter
+  - <http://www.openmicroscopy.org/ns/default/Genotype>:
+    - genotype_of_imagestring: "awsX"
+  - <http://www.openmicroscopy.org/ns/default/Phenotype>:
+    - phenotype_of_imagestring: "WS"
+  - <http://www.openmicroscopy.org/ns/default/Parent>:
+    - parent_of_imagestring: 0
+  - <http://www.openmicroscopy.org/ns/default/Investigation>:
+    - investigation_of_imagestring: "Deep Learning for MPB"
+  - <http://www.openmicroscopy.org/ns/default/Study>:
+    - study_of_imagestring: "Segmentation and Classification of Pseudomonas fluorescens SBW25 colony morphotypes"
+  - <http://www.openmicroscopy.org/ns/default/Type>:
+    - type_of_imagestring: "still"
+  - <http://www.openmicroscopy.org/ns/default/MPB>:
+    - mpb_of_imagestring: 15456
+  - <http://www.openmicroscopy.org/ns/default/Organism>:
+    - organism_of_imagestring: "Pseudomonas fluorescens"
+  - <http://www.openmicroscopy.org/ns/default/Assay>:
+    - assay_of_imagestring: "awsX"
+  - <http://www.openmicroscopy.org/ns/default/Strain>:
+    - strain_of_imagestring: "SBW25"
+  - <http://www.openmicroscopy.org/ns/default/OME-Model0#OME:Experiment0%7CExperimentType>:
+    - ome:experiment0%7cexperimenttype_of_imagestring: "FP"
+
+- ShapeShapefontstyle <https://ld.openmicroscopy.org/core/ShapeFontStyle#BoldItalic>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/ShapeFontStyle>
+
+- ShapeUnitspressure <https://ld.openmicroscopy.org/core/UnitsPressure#Mbar>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/UnitsPressure>
+
+- ShapeClassdefinition <https://ld.openmicroscopy.org/core/Dataset>:
+  - rdf:type: <https://w3id.org/linkml/ClassDefinition>
+
+- ShapeShapefillrule <https://ld.openmicroscopy.org/core/ShapeFillRule#EvenOdd>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/ShapeFillRule>
+
+- ShapeUnitstime <https://ld.openmicroscopy.org/core/UnitsTime#fs>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/UnitsTime>
+
+- ShapeOwner <https://omero-nfdi.uni-muenster.de/Experimenter/106>:
+  - rdf:type: <https://ld.openmicroscopy.org/omekg/Owner>
+  - rdf:type: foaf:Person
+  - rdf:type: <https://ld.openmicroscopy.org/omekg/Experimenter>
+  - rdf:type: <https://ld.openmicroscopy.org/core/Experimenter>
+  - foaf:lastName:
+    - foaf_lastname_of_owner: "Abbe"
+  - foaf:firstName:
+    - foaf_firstname_of_owner: "root"
+  - foaf:name:
+    - foaf_name_of_owner: "Daniel Varga"
+  - dc:identifier:
+    - dc_identifier_of_owner: 103
+  - foaf:email:
+    - foaf_email_of_owner: "david.hecker@dzne.de"
+
+- ShapePerson <https://omero-nfdi.uni-muenster.de/Experimenter/106>:
+  - rdf:type: <https://ld.openmicroscopy.org/omekg/Owner>
+  - rdf:type: foaf:Person
+  - rdf:type: <https://ld.openmicroscopy.org/omekg/Experimenter>
+  - rdf:type: <https://ld.openmicroscopy.org/core/Experimenter>
+  - foaf:lastName:
+    - foaf_lastname_of_person: "Abbe"
+  - foaf:firstName:
+    - foaf_firstname_of_person: "root"
+  - foaf:name:
+    - foaf_name_of_person: "Daniel Varga"
+  - dc:identifier:
+    - dc_identifier_of_person: 103
+  - foaf:email:
+    - foaf_email_of_person: "david.hecker@dzne.de"
+
+- ShapeExperimenter <https://omero-nfdi.uni-muenster.de/Experimenter/106>:
+  - rdf:type: <https://ld.openmicroscopy.org/omekg/Owner>
+  - rdf:type: foaf:Person
+  - rdf:type: <https://ld.openmicroscopy.org/omekg/Experimenter>
+  - rdf:type: <https://ld.openmicroscopy.org/core/Experimenter>
+  - foaf:lastName:
+    - foaf_lastname_of_experimenter: "Abbe"
+  - foaf:firstName:
+    - foaf_firstname_of_experimenter: "root"
+  - foaf:name:
+    - foaf_name_of_experimenter: "Daniel Varga"
+  - dc:identifier:
+    - dc_identifier_of_experimenter: 103
+  - foaf:email:
+    - foaf_email_of_experimenter: "david.hecker@dzne.de"
+
+- ShapeExperimenter <https://omero-nfdi.uni-muenster.de/Experimenter/106>:
+  - rdf:type: <https://ld.openmicroscopy.org/omekg/Owner>
+  - rdf:type: foaf:Person
+  - rdf:type: <https://ld.openmicroscopy.org/omekg/Experimenter>
+  - rdf:type: <https://ld.openmicroscopy.org/core/Experimenter>
+  - foaf:lastName:
+    - foaf_lastname_of_experimenterstring: "Abbe"
+  - foaf:firstName:
+    - foaf_firstname_of_experimenterstring: "root"
+  - foaf:name:
+    - foaf_name_of_experimenterstring: "Daniel Varga"
+  - dc:identifier:
+    - dc_identifier_of_experimenterinteger: 103
+  - foaf:email:
+    - foaf_email_of_experimenterstring: "david.hecker@dzne.de"
+
+- ShapeChannelacquisitionmode <https://ld.openmicroscopy.org/core/ChannelAcquisitionMode#SingleMoleculeImaging>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/ChannelAcquisitionMode>
+
+- ShapeVocabularyencodingscheme dc:IMT:
+  - rdf:type: dcam:VocabularyEncodingScheme
+
+- ShapeFiltertype <https://ld.openmicroscopy.org/core/FilterType#NeutralDensity>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/FilterType>
+
+- ShapeFilamenttype <https://ld.openmicroscopy.org/core/FilamentType#Halogen>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/FilamentType>
+
+- ShapeObjectiveimmersion <https://ld.openmicroscopy.org/core/ObjectiveImmersion#Other>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/ObjectiveImmersion>
+
+- ShapeBinning <https://ld.openmicroscopy.org/core/Binning#1x1>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/Binning>
+
+- ShapeDetectortype <https://ld.openmicroscopy.org/core/DetectorType#LifetimeImaging>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/DetectorType>
+
+- ShapeDataset <https://omero-nfdi.uni-muenster.de/Dataset/110>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/Dataset>
+  - rdf:type: <https://ld.openmicroscopy.org/omekg/Dataset>
+  - rdfs:label:
+    - rdfs_label_of_dataset: "mix"
+  - dc:identifier:
+    - dc_identifier_of_dataset: 150
+  - dc:identifier:
+    - dc_identifier_of_datasetstring: 150
+  - rdfs:comment:
+    - rdfs_comment_of_dataset: ""
+  - <https://ld.openmicroscopy.org/omekg#experimenter>:
+    - experimenter_of_dataset: ShapeExperimenter
+  - <https://ld.openmicroscopy.org/core/experimenter>:
+    - experimenter_of_datasetexperimenter>: ShapeExperimenter
+  - <https://ld.openmicroscopy.org/omekg#image>:
+    - image_of_dataset: ShapeImage
+  - <https://ld.openmicroscopy.org/omekg#owner>:
+    - owner_of_dataset: ShapeExperimenter
+  - <http://www.openmicroscopy.org/ns/default/Strain>:
+    - strain_of_dataset: "SBW25"
+  - <http://www.openmicroscopy.org/ns/default/Phenotype>:
+    - phenotype_of_dataset: "WT"
+  - <http://www.openmicroscopy.org/ns/default/Study>:
+    - study_of_dataset: "Segmentation and Classification of Pseudomonas fluorescens SBW25 colony morphotypes"
+  - <http://www.openmicroscopy.org/ns/default/Investigation>:
+    - investigation_of_dataset: "Deep Learning for MPB"
+  - <http://www.openmicroscopy.org/ns/default/Organism>:
+    - organism_of_dataset: "Pseudomonas fluorescens"
+  - <http://www.openmicroscopy.org/ns/default/Type>:
+    - type_of_dataset: "still"
+  - <http://www.openmicroscopy.org/ns/default/MPB>:
+    - mpb_of_dataset: 15447
+  - <http://www.openmicroscopy.org/ns/default/Genotype>:
+    - genotype_of_dataset: "wspF"
+  - <http://www.openmicroscopy.org/ns/default/Parent>:
+    - parent_of_dataset: 0
+  - <http://www.openmicroscopy.org/ns/default/Assay>:
+    - assay_of_dataset: 0085
+
+- ShapeDataset <https://omero-nfdi.uni-muenster.de/Dataset/110>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/Dataset>
+  - rdf:type: <https://ld.openmicroscopy.org/omekg/Dataset>
+  - rdfs:label:
+    - rdfs_label_of_datasetstring: "mix"
+  - dc:identifier:
+    - dc_identifier_of_datasetinteger: 150
+  - dc:identifier:
+    - dc_identifier_of_datasetstring1: 150
+  - rdfs:comment:
+    - rdfs_comment_of_datasetstring: ""
+  - <https://ld.openmicroscopy.org/omekg#experimenter>:
+    - experimenter_of_datasetexperimenter>1: ShapeExperimenter
+  - <https://ld.openmicroscopy.org/core/experimenter>:
+    - experimenter_of_datasetexperimenter>2: ShapeExperimenter
+  - <https://ld.openmicroscopy.org/omekg#image>:
+    - image_of_datasetimage>: ShapeImage
+  - <https://ld.openmicroscopy.org/omekg#owner>:
+    - owner_of_datasetexperimenter>: ShapeExperimenter
+  - <http://www.openmicroscopy.org/ns/default/Strain>:
+    - strain_of_datasetstring: "SBW25"
+  - <http://www.openmicroscopy.org/ns/default/Phenotype>:
+    - phenotype_of_datasetstring: "WT"
+  - <http://www.openmicroscopy.org/ns/default/Study>:
+    - study_of_datasetstring: "Segmentation and Classification of Pseudomonas fluorescens SBW25 colony morphotypes"
+  - <http://www.openmicroscopy.org/ns/default/Investigation>:
+    - investigation_of_datasetstring: "Deep Learning for MPB"
+  - <http://www.openmicroscopy.org/ns/default/Organism>:
+    - organism_of_datasetstring: "Pseudomonas fluorescens"
+  - <http://www.openmicroscopy.org/ns/default/Type>:
+    - type_of_datasetstring: "still"
+  - <http://www.openmicroscopy.org/ns/default/MPB>:
+    - mpb_of_datasetstring: 15447
+  - <http://www.openmicroscopy.org/ns/default/Genotype>:
+    - genotype_of_datasetstring: "wspF"
+  - <http://www.openmicroscopy.org/ns/default/Parent>:
+    - parent_of_datasetstring: 0
+  - <http://www.openmicroscopy.org/ns/default/Assay>:
+    - assay_of_datasetstring: 0085
+
+- ShapeEnumdefinition <https://ld.openmicroscopy.org/core/UnitsTime>:
+  - rdf:type: <https://w3id.org/linkml/EnumDefinition>
+
+- ShapeExternalcompression <https://ld.openmicroscopy.org/core/ExternalCompression#bzip2>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/ExternalCompression>
+
+- ShapeUnitspower <https://ld.openmicroscopy.org/core/UnitsPower#hW>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/UnitsPower>
+
+- ShapeMicrobeammanipulationvalue <https://ld.openmicroscopy.org/core/MicrobeamManipulationValue#FLIP>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/MicrobeamManipulationValue>
+
+- ShapeObjectivesettingsmedium <https://ld.openmicroscopy.org/core/ObjectiveSettingsMedium#Oil>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/ObjectiveSettingsMedium>
+
+- ShapeLaserpulse <https://ld.openmicroscopy.org/core/LaserPulse#Other>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/LaserPulse>
+
+- ShapeExperimentvalue <https://ld.openmicroscopy.org/core/ExperimentValue#Photobleaching>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/ExperimentValue>
+
+- ShapeMicroscopetype <https://ld.openmicroscopy.org/core/MicroscopeType#Inverted>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/MicroscopeType>
+
+- ShapeUnitstemperature <https://ld.openmicroscopy.org/core/UnitsTemperature#K>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/UnitsTemperature>
+
+- ShapeResource dc:Agent:
+  - rdf:type: rdfs:Resource
+  - rdf:type: dc:AgentClass
+  - rdf:type: rdfs:Class
+
+- ShapeAgentclass dc:Agent:
+  - rdf:type: rdfs:Resource
+  - rdf:type: dc:AgentClass
+  - rdf:type: rdfs:Class
+
+- ShapeClass dc:Agent:
+  - rdf:type: rdfs:Resource
+  - rdf:type: dc:AgentClass
+  - rdf:type: rdfs:Class
+
+- ShapeUnitselectricpotential <https://ld.openmicroscopy.org/core/UnitsElectricPotential#YV>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/UnitsElectricPotential>
+
+- ShapeChannelcontrastmethod <https://ld.openmicroscopy.org/core/ChannelContrastMethod#ObliqueIllumination>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/ChannelContrastMethod>
+
+- ShapeMarker <https://ld.openmicroscopy.org/core/Marker#Arrow>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/Marker>
+
+- ShapeArctype <https://ld.openmicroscopy.org/core/ArcType#HgXe>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/ArcType>
+
+- ShapeShapefontfamily <https://ld.openmicroscopy.org/core/ShapeFontFamily#serif>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/ShapeFontFamily>
+
+- ShapeChannelilluminationtype <https://ld.openmicroscopy.org/core/ChannelIlluminationType#Transmitted>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/ChannelIlluminationType>
+
+- ShapePixelsdimensionorder <https://ld.openmicroscopy.org/core/PixelsDimensionOrder#XYTZC>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/PixelsDimensionOrder>
+
+- ShapeProject <https://omero-nfdi.uni-muenster.de/Project/53>:
+  - <https://ld.openmicroscopy.org/omekg#creation_id>:
+    - creation_id_of_project: 10719
+  - <https://ld.openmicroscopy.org/omekg#dataset>:
+    - dataset_of_project: ShapeDataset
+  - rdfs:comment:
+    - rdfs_comment_of_project: "This Project hosts all Datasets used in the collaboration with TH Luebeck (S. Werth)"
+  - rdf:type: <https://ld.openmicroscopy.org/core/Project>
+  - rdf:type: <https://ld.openmicroscopy.org/omekg/Project>
+  - <https://ld.openmicroscopy.org/core/experimenter_group>:
+    - experimenter_group_of_project: ShapeExperimentergroup
+  - <https://ld.openmicroscopy.org/core/experimenter>:
+    - experimenter_of_project: ShapeExperimenter
+  - dc:identifier:
+    - dc_identifier_of_project: 53
+  - <https://ld.openmicroscopy.org/omekg#owner>:
+    - owner_of_project: ShapeExperimenter
+  - <https://ld.openmicroscopy.org/omekg#experimenter_group>:
+    - experimenter_group_of_projectexperimentergroup>: ShapeExperimentergroup
+  - <https://ld.openmicroscopy.org/omekg#experimenter>:
+    - experimenter_of_projectexperimenter>: ShapeExperimenter
+  - <https://ld.openmicroscopy.org/omekg#update_id>:
+    - update_id_of_project: 10719
+  - rdfs:label:
+    - rdfs_label_of_project: "SBW25_WT_GT_classification"
+  - <https://ld.openmicroscopy.org/omekg#group>:
+    - group_of_project: ShapeExperimentergroup
+
+- ShapeProject <https://omero-nfdi.uni-muenster.de/Project/53>:
+  - <https://ld.openmicroscopy.org/omekg#creation_id>:
+    - creation_id_of_projectinteger: 10719
+  - <https://ld.openmicroscopy.org/omekg#dataset>:
+    - dataset_of_projectdataset>: ShapeDataset
+  - rdfs:comment:
+    - rdfs_comment_of_projectstring: "This Project hosts all Datasets used in the collaboration with TH Luebeck (S. Werth)"
+  - rdf:type: <https://ld.openmicroscopy.org/core/Project>
+  - rdf:type: <https://ld.openmicroscopy.org/omekg/Project>
+  - <https://ld.openmicroscopy.org/core/experimenter_group>:
+    - experimenter_group_of_projectexperimentergroup>1: ShapeExperimentergroup
+  - <https://ld.openmicroscopy.org/core/experimenter>:
+    - experimenter_of_projectexperimenter>1: ShapeExperimenter
+  - dc:identifier:
+    - dc_identifier_of_projectinteger: 53
+  - <https://ld.openmicroscopy.org/omekg#owner>:
+    - owner_of_projectexperimenter>: ShapeExperimenter
+  - <https://ld.openmicroscopy.org/omekg#experimenter_group>:
+    - experimenter_group_of_projectexperimentergroup>2: ShapeExperimentergroup
+  - <https://ld.openmicroscopy.org/omekg#experimenter>:
+    - experimenter_of_projectexperimenter>2: ShapeExperimenter
+  - <https://ld.openmicroscopy.org/omekg#update_id>:
+    - update_id_of_projectinteger: 10719
+  - rdfs:label:
+    - rdfs_label_of_projectstring: "SBW25_WT_GT_classification"
+  - <https://ld.openmicroscopy.org/omekg#group>:
+    - group_of_projectexperimentergroup>: ShapeExperimentergroup
+
+- ShapeBindatacompression <https://ld.openmicroscopy.org/core/BinDataCompression#zlib>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/BinDataCompression>
+
+- ShapeNamingconvention <https://ld.openmicroscopy.org/core/NamingConvention#number>:
+  - rdf:type: <https://ld.openmicroscopy.org/core/NamingConvention>
+
